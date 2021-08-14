@@ -15,7 +15,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <img className="" src="../images/icons/menu-icon.png" width="25px" style={{ cursor: 'pointer' }}
+                <img className="menu-icon" src="../images/icons/menu-icon.png" width="25px" style={{ cursor: 'pointer' }}
                     onClick={() => setToggleNavBar(prevValue => !prevValue)}
                 />
 

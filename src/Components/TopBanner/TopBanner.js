@@ -14,7 +14,8 @@ const TopBanner = () => {
 
                     </div>
                     <h1 className="">
-                        Hello Numan, Welcome to NumDev
+                        Hello Numan,<br />
+                        Welcome to NumDev
                     </h1>
                     <div className="top-banner-btn-block">
                         <button className="btn btn-green">Home</button>
