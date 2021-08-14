@@ -1,0 +1,60 @@
+.languages-section {
+    /* background: #f6f6f7; */
+}
+
+.languages-section-heading {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.languages-section-heading h2 {
+    font-weight: 400;
+    color      : #2B313D;
+    font-size  : 1.2rem;
+}
+
+.languages-section-heading span {
+    color: #949FB7;
+}
+
+.languages-section-heading a {
+    color          : #595959;
+    text-decoration: none;
+    font-size      : 1rem;
+}
+
+.languages-list {
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap             : 2rem
+}
+
+.languages {
+    padding: 0 10px;
+}
+
+.languages-meta {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.languages-meta span {
+    font-size  : 12px;
+    color      : gray;
+    padding-top: 0.4rem;
+}
+
+.languages-card img {
+    width: 100%;
+}
+
+.languages-title {
+    margin-top: 8px;
+}
+
+.languages-title a {
+    color          : black;
+    text-decoration: none;
+}
